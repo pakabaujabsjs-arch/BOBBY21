@@ -7768,7 +7768,7 @@ end
 
 local function makeLabel(holder, size, isTag)
     local lb = Instance.new("TextLabel")
-    lb.Name = "KzoyzName"
+    lb.Name = "BOBBY21Name"
     lb.BackgroundTransparency = 1
     lb.Font = NAME_FONT
     lb.TextSize = size
@@ -7906,7 +7906,7 @@ local GRID_RADIUS = 2
 local CELL = 38
 local GAP = 4
 
-local GridGui = newScreenGui("KzoyzGrid")
+local GridGui = newScreenGui("BOBBY21Grid")
 UI.GridGui = GridGui
 
 local side = GRID_RADIUS * 2 + 1
@@ -8123,7 +8123,7 @@ task.spawn(function()
 end)
 
 -- Tombol ▲/▼ untuk Fly (muncul saat Fly aktif)
-local FlyPad = newScreenGui("KzoyzFlyPad")
+local FlyPad = newScreenGui("BOBBY21FlyPad")
 UI.FlyPad = FlyPad
 
 local function flyButton(text, yOffset, onHold)
